@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-image: url(images/background.jpg);
+color: #696969;
+}
+
+body, td, th {
+font-family: Verdana,Geneva,sans-serif;
+color: #333333;
+}
+
+h2 {
+font-size: 16px;
+margin-top: 40px;
+margin-left: 10px;
+}
+
+h3 {
+font-size: 14px;
+font-weight: normal;
+margin-top: 10px;
+}
+
+a {
+text-decoration: none;
+color: #696969;
+}
+
+a:hover {
+text-decoration: underline;
+color: #696969;
+}
+
+.contact-input {
+width: 200px;
+}
+
+.contact-textarea {
+background: transparent url(images/email.png) no-repeat bottom left;
+width: 500px;
+height: 250px;
+}
+
+#table-home{
+width: 700px;
+height: 383px;
+position: absolute;
+left: 50%;
+margin-left: -350px;
+top: 50%;
+margin-top: -190px;
+border-right: 6px solid #990000;
+border-left: 6px solid #990000;
+}
+
+#table-body{
+width: 700px;
+background: white;
+border-right: 4px solid #DC143C;
+border-left: 4px solid #DC143C;
+}
+
+.table-contact table{
+width: 400px;
+}
+
+.table-contact td{
+}
+
+
+#td-header {
+height: 140px;
+background: transparent url(images/header.jpg) no-repeat;
+vertical-align: top;
+}
+
+#tr-body {
+background: transparent url(images/body.jpg) no-repeat bottom;
+}
+
+#tr-footer {
+background: transparent url(images/footer.jpg) no-repeat scroll center bottom;
+}
+
+#flags {
+text-align: right;
+margin-top: 5px;
+margin-right: 5px;
+}
+
+.content {
+margin-top: 40px;
+margin-right: 120px;
+margin-left: 40px;
+}
+
+.portrait {
+float: left;
+padding: 10px 10px 35px 10px;
+margin: 0px 15px 5px 0px;
+background: #eee;
+border: 1px solid #fff;
+box-shadow: 5px 5px 5px #ccc;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+}
+
+.footer {
+font-size: 9px;
+margin-left: 40px;
+margin-top: 20px;
+margin-right: 120px;
+}
+
+.quote {
+//background: transparent url(images/sfondix4.jpg) no-repeat bottom left;
+background: transparent url(images/sfondiy.jpg) no-repeat top left;
+}
+
+.quote-content{
+font-family: Verdana,Geneva,sans-serif;
+font-size: 14px;
+font-style: italic;
+text-align: right;
+padding-left: 155px;
+margin-top: 25px;
+padding-bottom: 40px;
+margin-bottom: 10px;
+}
+
+.player{
+margin-top: 6px;
+margin-right: 10px;
+float:left;
+}
+
+tr.menu {
+background: transparent url(images/texture_menu.png) repeat-x;
+height: 30px;
+font-weight: bold;
+}
+
+
